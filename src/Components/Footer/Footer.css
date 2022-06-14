@@ -4,6 +4,7 @@
   padding: 3rem 5.625rem;
   padding-bottom: 1rem;
   background-color: #fff;
+  border-bottom: 3px solid #299d90;
 }
 .footer-container > a {
   text-decoration: none;
