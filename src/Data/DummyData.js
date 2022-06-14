@@ -117,4 +117,5 @@ export const NewsData = [
   { img: SVG.NEWS_ICON2 },
   { img: SVG.NEWS_ICON3 },
   { img: SVG.NEWS_ICON4 },
+  { img: SVG.NEWS_ICON4 },
 ];

@@ -11,7 +11,7 @@
 .profile-content-box {
   position: relative;
   max-height: 12.5rem;
-  max-width: 11.58rem;
+  max-width: 11.38rem;
   height: 100%;
   width: 100%;
   border: 3px solid #e4e9f1;
@@ -28,7 +28,7 @@
   padding: auto;
   position: absolute;
   bottom: 41%;
-  left: 4.2%;
+  left: 7px;
   padding: 6px;
   border-radius: 14px;
   padding-bottom: 0;
