@@ -359,6 +359,8 @@
   padding-bottom: 0.5rem;
   text-align: left;
   border: 1px solid #e4e8ee;
+  border-radius: 12px;
+  box-shadow: none;
 }
 .job-card-head {
   width: 100%;
