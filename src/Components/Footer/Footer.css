@@ -68,9 +68,12 @@
   padding: 0.5rem;
   padding-left: 0;
   padding-bottom: 0.8rem;
+  padding-top: 4px;
 }
 .footer-right ul li a {
   color: #6a7381;
+  font-size: 14px;
+  font-weight: 500;
 }
 .footer-bottom {
   display: flex;

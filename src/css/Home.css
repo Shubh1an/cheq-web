@@ -139,7 +139,7 @@
 .left-mobile-pic {
   transform: rotate(320deg);
   left: -10%;
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 700ms;
   transform-origin: 49% 140%;
 }
 .rotate-right {
@@ -151,7 +151,7 @@
 .right-mobile-pic {
   transform: rotate(42deg);
   left: 0%;
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 700ms;
   transform-origin: 55% 143%;
 }
 .middle-mobile-pic {

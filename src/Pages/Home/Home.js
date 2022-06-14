@@ -103,13 +103,18 @@ function Home() {
         <div className="parallax-mobile-container Mobile-image-container">
           <div className="Mobile-box">
             <div
-              style={{ transform: `rotate(${rotateRight}deg)` }}
+              style={{
+                transform: `rotate(${rotateRight}deg)`,
+                // transition: "5s ease-in",
+              }}
               className={`left-mobile-pic `}
             >
               <LeftMobile leftClass="side-mobile" />
             </div>
             <div
-              style={{ transform: `rotate(${rotateLeft}deg)` }}
+              style={{
+                transform: `rotate(${rotateLeft}deg)`,
+              }}
               className={`right-mobile-pic `}
             >
               <RightMobile rightClass="side-mobile" />
