@@ -42,7 +42,12 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        Made with <span>❤️</span> India
+        <div>
+          <p>
+            Made with <span>❤️</span> India
+          </p>
+        </div>
+        <p className="copyright-text">All Copyrights @Cheq</p>
       </div>
     </Container>
   );
