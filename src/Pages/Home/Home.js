@@ -85,6 +85,7 @@ function Home() {
   const handleNavigate = (page) => {
     navigate(page);
   };
+  //hello
   return (
     <>
       <div className="parallax">
