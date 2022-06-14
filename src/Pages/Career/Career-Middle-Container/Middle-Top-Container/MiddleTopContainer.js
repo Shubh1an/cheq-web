@@ -8,7 +8,7 @@ function MiddleTopContainer() {
   const ValueCard = ({ data }) => {
     return (
       <Card container="value-card">
-        <img src={data.image} alt="" />
+        <div className="core-values-icon">{data.image}</div>
         <h3>{data.header}</h3>
         <p>{data.text}</p>
       </Card>
@@ -17,7 +17,7 @@ function MiddleTopContainer() {
   return (
     <>
       <Container outer="" inner="middle-container">
-        <h3 className="head-title">Our Values</h3>
+        <h3 className="head-title">Core Values</h3>
         <Container outer="" inner="flex-container">
           {ValueData.map((data, index) => (
             <ValueCard key={index} data={data} />

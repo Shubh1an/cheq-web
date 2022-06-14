@@ -76,10 +76,11 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 10rem 5rem;
+  padding: 10rem 5.625rem;
   padding-right: 1rem;
   /* border: 5px solid; */
   box-sizing: border-box;
+  padding-bottom: 8rem;
 }
 .top-home-container {
   display: none;
@@ -176,6 +177,9 @@
   display: flex;
   align-items: center;
 }
+.left-style {
+  flex: 0.63 1;
+}
 .right-style {
   position: relative;
   flex: 1 1;
@@ -233,6 +237,7 @@
 }
 .profile-content-style h4 {
   margin: 0.1rem 0;
+  margin-top: 0.3rem;
 }
 .profile-width-container {
   /* width: inherit; */
@@ -284,7 +289,7 @@
 }
 .home-middle-container-1 {
   flex-direction: column;
-  padding: 3rem 5.625rem;
+  padding: 3rem 6.595rem;
   background: #fff;
   padding-bottom: 13.188rem;
 }
@@ -345,6 +350,7 @@
 }
 .blessed-left-flex {
   align-items: flex-start;
+  flex: 0.8 1;
 }
 @media only screen and (max-width: 1300px) {
   .people-btn-below {

@@ -4,14 +4,16 @@
   position: relative;
 }
 .team-parallax {
-  top: 66% !important;
+  top: 80% !important;
 }
 
 .team-container,
 .profileContainer {
   padding: 5rem;
-  padding-left: 11.5rem;
+
   padding-right: 11.5rem;
+
+  padding-left: 5.625rem;
 }
 .team-container h3,
 p {
@@ -28,7 +30,7 @@ p {
   padding-bottom: 3rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  gap: 10rem 12.975rem;
+  gap: 10rem 8.695rem;
   transition: all ease-in-out 300ms;
   background-color: #fff;
 }
