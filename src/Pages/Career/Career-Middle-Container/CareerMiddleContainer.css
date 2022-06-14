@@ -244,6 +244,7 @@
 .cheq-content {
   padding: 0.75rem 5rem;
   padding-left: 0;
+  padding-right: 0;
 }
 .cheq-content > * {
   flex: 1;
@@ -260,10 +261,11 @@
 }
 .cheq-right {
   padding: 2rem;
+  padding-right: 0;
 }
 .imageContainer {
   height: 100%;
-  width: 100%;
+  width: 716px;
   height: 100%;
   display: grid;
   grid-template-columns: auto auto;

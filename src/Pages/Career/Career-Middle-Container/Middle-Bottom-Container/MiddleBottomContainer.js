@@ -28,7 +28,7 @@ function MiddleBottomContainer() {
           <p className="detail-head">Details</p>
           <p className="job-content">{job.content}</p>
           <p className="know" onClick={() => openModal(job)}>
-            Know More{" "}
+            Know More
             <span>
               <img src={SVG.ARROW} />
             </span>

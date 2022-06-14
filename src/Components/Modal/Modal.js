@@ -14,6 +14,7 @@ const customStyles = {
     padding: "0",
     border: "none",
     overflowX: "hidden",
+    zIndex: 100,
   },
 };
 Modal.setAppElement("#root");
