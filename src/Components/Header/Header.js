@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { SVG } from "../../assets/icons/icons-png";
 import $ from "jquery";
 import Button from "../Button/Button";
@@ -10,7 +10,7 @@ function Header() {
   let Team = null;
   let Investors = null;
   let ContactUs = null;
-
+  const navigate = useNavigate();
   useEffect(() => {
     Home = document.getElementsByClassName("parallax__layer")[0];
 
@@ -21,7 +21,7 @@ function Header() {
     // ContactUs = document.getElementsByClassName("top-main-content")[0];
   }, []);
   function doScrolling(elementY, duration = 500) {
-    let startingY = window.pageYOffset;
+    let startingY = window.scrollY;
     let diff = elementY;
     let start;
 
@@ -62,6 +62,7 @@ function Header() {
           <div className="drawer-top">
             <div
               onClick={() => {
+                navigate("/");
                 doScrolling(Home.getBoundingClientRect().top);
                 setIsOpen(false);
               }}
